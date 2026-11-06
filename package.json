@@ -1,0 +1,19 @@
+{
+  "name": "online-shopping-order-management-system",
+  "version": "1.0.0",
+  "description": "A beginner-friendly e-commerce and order management project for DevOps practicals",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test:selenium": "node tests/selenium-test.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "selenium-webdriver": "^4.27.0"
+  }
+}

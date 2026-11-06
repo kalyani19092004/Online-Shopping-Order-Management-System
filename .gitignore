@@ -1,0 +1,4 @@
+node_modules/
+shopping.db
+.env
+.DS_Store
